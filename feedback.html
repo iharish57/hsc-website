@@ -1,52 +1,55 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>HSC</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 
-    <style>
-      body{
-        background-image: url("./assets/hscBg@2x.png");
-        background-repeat:no-repeat ;
-        background-position: bottom -7em left -11em;
-        background-size: calc(100vh - 2vw);
-        
-      }
-    </style>
+  <title>HSC</title>
 
-  </head>
-  <body>
-    <nav class="navbar fixed-top mainNav navbar-expand-md navbar-light .bg-transparent">
-        <div class="container-fluid py-md-3">
-          <div class="logoHomeMob d-md-none">
-            <a class="navbar-brand" href="./home.html" title="Home">
-              <img class=""src="./assets/HSC_LOGO.png" alt="" height="30em">
-            </a>
-          </div>
-          <a class="exit" href="./index.html">
-            <span class="fw-light">E</span><span class="fst-italic exitX" >X</span><span class="fw-light">IT</span>
-          </a>
-          <button class="navbar-toggler navbarEX" onclick="expand()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-          style="box-shadow:none !important; border: none; ">
-          <span class="navbarTIe" id="EXStyle">E</span><span class="navbarTIx" id="EXStyle2">X</span>
-        </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav navUl me-auto mb-2 mb-md-0 mx-auto align-items-center">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Feedback</a>
-              </li>
-              <li class="nav-item px-md-5">
-                <a class="nav-link" href="./work.html">Work</a>
-              </li>
-              <!-- <li class="nav-item dropdown">
+  <style>
+    body {
+      background-image: url("./assets/hscBg@2x.png");
+      background-repeat: no-repeat;
+      background-position: bottom -7em left -11em;
+      background-size: calc(100vh - 2vw);
+
+    }
+  </style>
+
+</head>
+
+<body>
+  <nav class="navbar fixed-top mainNav navbar-expand-md navbar-light .bg-transparent">
+    <div class="container-fluid py-md-3">
+      <div class="logoHomeMob d-md-none">
+        <a class="navbar-brand" href="./home.html" title="Home">
+          <img class="" src="./assets/HSC_LOGO.png" alt="" height="30em">
+        </a>
+      </div>
+      <a class="exit" href="./index.html">
+        <span class="fw-light">E</span><span class="fst-italic exitX">X</span><span class="fw-light">IT</span>
+      </a>
+      <button class="navbar-toggler navbarEX" onclick="expand()" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation" style="box-shadow:none !important; border: none; ">
+        <span class="navbarTIe" id="EXStyle">E</span><span class="navbarTIx" id="EXStyle2">X</span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav navUl me-auto mb-2 mb-md-0 mx-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Feedback</a>
+          </li>
+          <li class="nav-item px-md-5">
+            <a class="nav-link" href="./work.html">Work</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
                 </a>
@@ -57,94 +60,97 @@
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li> -->
-              <li class="nav-item logoHomeDmy d-none d-md-block">
-                <a class="" href="./home.html" title="Home">
-                  <img class="logoImg" src="./assets/HSC_LOGO SMALL.png" alt="" height="60em">
-                </a>
-              </li>
-              <li class="nav-item px-md-5">
-                <a class="nav-link" href="./aboutMe.html">About me !</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
-            </ul>
-            <!-- <form class="d-flex">
+          <li class="nav-item logoHomeDmy d-none d-md-block">
+            <a class="" href="./home.html" title="Home">
+              <img class="logoImg" src="./assets/HSC_LOGO SMALL.png" alt="" height="60em">
+            </a>
+          </li>
+          <li class="nav-item px-md-5">
+            <a class="nav-link" href="./aboutMe.html">About me !</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+        <!-- <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form> -->
-          </div>
-        </div>
-      </nav>
-
-      <div class="container">
-        <div class="row d-flex justify-content-center align-items-center" style="min-height: 100vh;">
-          <div class="underLineSlant d-md-none p-md-0">
-             <span>Feedback</span>
-          </div>
-          <div class="col-12 text-center p-5 p-md-0" >
-            <div class="row rating py-4 my-3">
-              <div class="col-12 col-md-6"><span>Navigation of Website</span></div>
-              <div class="col-12 col-md-6 rating-wrapper">
-                <input type="radio" name="rating" id="s1"> <label for="s1"></label>
-                <input type="radio" name="rating" id="s2"> <label for="s2"></label>
-                <input type="radio" name="rating" id="s3"> <label for="s3"></label>
-                <input type="radio" name="rating" id="s4"> <label for="s4"></label>
-                <input type="radio" name="rating" id="s5"> <label for="s5"></label>
-              </div>
-            </div>
-
-            <div class="row rating py-4 my-3">
-              <div class="col-12 col-md-6"><span>The logo</span></div>
-              <div class="col-12 col-md-6 rating-wrapper">
-                <input type="radio" name="rating1" id="s1a"> <label for="s1a"></label>
-                <input type="radio" name="rating1" id="s2a"> <label for="s2a"></label>
-                <input type="radio" name="rating1" id="s3a"> <label for="s3a"></label>
-                <input type="radio" name="rating1" id="s4a"> <label for="s4a"></label>
-                <input type="radio" name="rating1" id="s5a"> <label for="s5a"></label>
-              </div>
-            </div>
-
-            <div class="row rating py-4 my-3">
-              <div class="col-12 col-md-6"><span>How's YOU today ?</span></div>
-              <div class="col-12 col-md-6 rating-wrapper">
-                <input type="radio" name="rating2" id="s1b"> <label for="s1b"></label>
-                <input type="radio" name="rating2" id="s2b"> <label for="s2b"></label>
-                <input type="radio" name="rating2" id="s3b"> <label for="s3b"></label>
-                <input type="radio" name="rating2" id="s4b"> <label for="s4b"></label>
-                <input type="radio" name="rating2" id="s5b"> <label for="s5b"></label>
-              </div>
-            </div>
-
-          </div>
-        </div>
       </div>
+    </div>
+  </nav>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  <div class="container">
+    <div class="row d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+      <div class="underLineSlant d-md-none p-md-0">
+        <span>Feedback</span>
+      </div>
+      <div class="col-12 text-center p-5 p-md-0">
+        <div class="row rating py-4 my-3">
+          <div class="col-12 col-md-6"><span>Navigation of Website</span></div>
+          <div class="col-12 col-md-6 rating-wrapper">
+            <input type="radio" name="rating" id="s1"> <label for="s1"></label>
+            <input type="radio" name="rating" id="s2"> <label for="s2"></label>
+            <input type="radio" name="rating" id="s3"> <label for="s3"></label>
+            <input type="radio" name="rating" id="s4"> <label for="s4"></label>
+            <input type="radio" name="rating" id="s5"> <label for="s5"></label>
+          </div>
+        </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <div class="row rating py-4 my-3">
+          <div class="col-12 col-md-6"><span>The logo</span></div>
+          <div class="col-12 col-md-6 rating-wrapper">
+            <input type="radio" name="rating1" id="s1a"> <label for="s1a"></label>
+            <input type="radio" name="rating1" id="s2a"> <label for="s2a"></label>
+            <input type="radio" name="rating1" id="s3a"> <label for="s3a"></label>
+            <input type="radio" name="rating1" id="s4a"> <label for="s4a"></label>
+            <input type="radio" name="rating1" id="s5a"> <label for="s5a"></label>
+          </div>
+        </div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+        <div class="row rating py-4 my-3">
+          <div class="col-12 col-md-6"><span>How are <b>YOU</b> today ?</span></div>
+          <div class="col-12 col-md-6 rating-wrapper">
+            <input type="radio" name="rating2" id="s1b"> <label for="s1b"></label>
+            <input type="radio" name="rating2" id="s2b"> <label for="s2b"></label>
+            <input type="radio" name="rating2" id="s3b"> <label for="s3b"></label>
+            <input type="radio" name="rating2" id="s4b"> <label for="s4b"></label>
+            <input type="radio" name="rating2" id="s5b"> <label for="s5b"></label>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-    
-    <!-- JavaScript file link custome -->
-    <script src="./script.js"></script>
 
-    <script>
-      function expand() {
-        console.log("tgl")
-        var element = document.getElementById("EXStyle");
-        var element2 = document.getElementById("EXStyle2");
-        element.classList.toggle("navbarTIe")
-        element.classList.toggle("navbarTe")
-        element2.classList.toggle("navbarTIx")
-        element2.classList.toggle("navbarTx")
-      }
-    </script>
+  <!-- JavaScript file link custome -->
+  <script src="./script.js"></script>
 
-  </body>
+  <script>
+    function expand() {
+      console.log("tgl")
+      var element = document.getElementById("EXStyle");
+      var element2 = document.getElementById("EXStyle2");
+      element.classList.toggle("navbarTIe")
+      element.classList.toggle("navbarTe")
+      element2.classList.toggle("navbarTIx")
+      element2.classList.toggle("navbarTx")
+    }
+  </script>
+
+</body>
+
 </html>
