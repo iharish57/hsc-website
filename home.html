@@ -99,7 +99,15 @@
       console.log(value)
       if (value != null && value.length > 0) {
         const xn = name.replaceAll('+',' ')
-        document.querySelector('#nameG').innerHTML = xn
+        if( xn.substr(0, 6).toLowerCase() !== "harish")
+        {
+          document.querySelector('#nameG').innerHTML = xn
+        }
+        else {
+          const xxn = xn + ", my namesake :)"
+          document.querySelector('#nameG').innerHTML = xxn
+          console.log(xxn)
+        }
       }
       else {
         document.querySelector('#nameG').innerHTML = ", You are awesome !"
